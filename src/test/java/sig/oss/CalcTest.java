@@ -14,4 +14,11 @@ public class CalcTest{
 	public void testMul(){
 		assertEquals(200, c.mul(20,10));
 	}
+	@Test
+	public void testMultipleInc(){
+		Calc c = new Calc();
+		c.inc(25);
+		c.inc(25);
+		assertEquals(50, c.getResult());
+	}
 }
