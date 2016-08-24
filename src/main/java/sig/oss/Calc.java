@@ -3,7 +3,7 @@ public class Calc{
 		return x+y;
 	}
 	public int sub(int x, int y){
-		return x-y;
+		return x-y; //fix subfunction
 	}
 	public int mul(int x, int y){
 		return x*y;
