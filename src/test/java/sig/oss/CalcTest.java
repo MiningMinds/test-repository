@@ -10,4 +10,8 @@ public class CalcTest{
 	public void testSub(){
 		assertEquals(10, c.sub(20,10));
 	}
+	@Test
+	public void testMul(){
+		assertEquals(200, c.mul(20,10));
+	}
 }
